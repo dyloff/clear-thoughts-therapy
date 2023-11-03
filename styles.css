@@ -81,6 +81,21 @@ nav{
     gap: 5px;
 }
 
+.nav__logo img{
+    max-width: 40px;
+}
+
+.nav__logo span{
+    font-size: 1.25rem;
+    color: var(--text-dark);
+}
+
+.nav__links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
 .link a {
     padding: 5px;
