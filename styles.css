@@ -48,7 +48,7 @@
     cursor: pointer;
 }
 
-.img{
+img{
     width: 100%;
     display: flex;
 }
@@ -64,4 +64,44 @@ body{
 
 body {
     font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav__logo img{
+    max-width: 40px;
+}
+
+.nav__logo span{
+    font-size: 1.25rem;
+    color: var(--text-dark);
+}
+
+.nav__links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link a {
+    padding: 5px;
+    color: var(--text-light);
+}
+
+.link a:hover {
+    color: var(--primary-color);
 }
