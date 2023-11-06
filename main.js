@@ -24,3 +24,26 @@ ScrollReveal().reveal(".header__container img", {
     ...scrollRevealOption,
     origin: "right",
 });
+
+// about container 
+
+ScrollReveal().reveal(".about__container .section__header", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".about__container p", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".about__container li", {
+    ...scrollRevealOption,
+    delay: 1500,
+    interval: 500,
+});
+
+ScrollReveal().reveal(".about__container img", {
+    ...scrollRevealOption,
+    origin: "left",
+});
