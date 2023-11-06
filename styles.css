@@ -94,7 +94,11 @@ nav{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.3rem;
+}
+
+li.link a[href="#accreditation"] {
+    color: #d291bc;
 }
 
 .link a {
@@ -154,4 +158,8 @@ header::before{
 .header__image img{
     max-width: 475px;
     margin: auto;
+}
+
+p {
+    margin-bottom: 20px; /* Adjust the value as needed */
 }
