@@ -25,25 +25,25 @@ ScrollReveal().reveal(".header__container img", {
     origin: "right",
 });
 
-// about container 
+// why container 
 
-ScrollReveal().reveal(".about__container .section__header", {
+ScrollReveal().reveal(".why__container .section__header", {
     ...scrollRevealOption,
     delay: 500,
 });
 
-ScrollReveal().reveal(".about__container p", {
+ScrollReveal().reveal(".why__container p", {
     ...scrollRevealOption,
     delay: 1000,
 });
 
-ScrollReveal().reveal(".about__container li", {
-    ...scrollRevealOption,
-    delay: 1500,
-    interval: 500,
-});
+// ScrollReveal().reveal(".why__container li", {
+//     ...scrollRevealOption,
+//     delay: 1500,
+//     interval: 500,
+// });
 
-ScrollReveal().reveal(".about__container img", {
+ScrollReveal().reveal(".why__container img", {
     ...scrollRevealOption,
     origin: "left",
 });

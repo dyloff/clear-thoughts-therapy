@@ -161,7 +161,7 @@ header::before{
 }
 
 p {
-    margin-bottom: 1rem; /* Adjust the value as needed */
+    margin-bottom: 0.5rem; /* Adjust the value as needed */
 }
 
 .about__container{
@@ -187,7 +187,7 @@ p {
 }
 
 .about__content p{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.5rem;
     color: var(--text-light);
     font-size: 1rem;
@@ -204,15 +204,17 @@ p {
 }
 
 .why__container{
-    margin-top: 70px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    margin-bottom: 6rem;
 }
 
 .why__image{
     max-width: 600px;
     margin: auto;
+    align-items: center;
 }
 
 .why__content h2{
@@ -226,7 +228,7 @@ p {
 }
 
 .why__content p{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.5rem;
     color: var(--text-light);
     font-size: 1rem;
