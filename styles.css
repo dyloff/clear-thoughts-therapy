@@ -243,3 +243,40 @@ p {
     font-size: 1rem;
     color: var(--primary-color);
 }
+
+.hero{
+    background-color: var(--extra-light);
+}
+
+.hero__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.hero__card span{
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    aspect-ratio: 1;
+    background-color: var(--primary-color-dark);
+    border-radius: 100%;
+}
+
+.hero__card span img{
+    max-width: 40px;
+}
+
+.hero__card h4{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.hero__card p{
+    line-height: 1.5rem;
+    color: var(--text-light);
+}
