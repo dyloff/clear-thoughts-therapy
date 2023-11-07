@@ -16,6 +16,13 @@
     box-sizing: border-box;
 }
 
+body {
+    transform-origin: top left; /* This sets the scaling point to the top left of the page */
+    transform: scale(0.9);
+    width: 111.11%;
+    overflow-x: hidden; /* This may help to prevent horizontal scrolling caused by the extra width */
+}
+  
 .section__container{
     max-width: var(--max-width);
     margin: auto;
@@ -208,7 +215,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
 }
 
 .why__image{
@@ -228,20 +235,10 @@ p {
 }
 
 .why__content p{
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     line-height: 1.5rem;
     color: var(--text-light);
     font-size: 1rem;
-}
-
-.why__content ul{
-    list-style: none;
-}
-
-.why__content li{
-    margin-bottom: 1.2rem;
-    font-size: 1rem;
-    color: var(--primary-color);
 }
 
 .hero{
@@ -251,7 +248,9 @@ p {
 .hero__container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 
 .hero__card span{
