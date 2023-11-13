@@ -47,3 +47,17 @@ ScrollReveal().reveal(".why__container img", {
     ...scrollRevealOption,
     origin: "left",
 });
+
+// contact me 
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     var btn = document.querySelector('.btn');
+//     if (btn) {
+//         btn.addEventListener('click', function() {
+//             console.log("Button clicked!");
+//             window.location.href = 'mailto:your-email@example.com';
+//         });
+//     } else {
+//         console.log("Button not found!");
+//     }
+// });
