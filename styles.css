@@ -330,14 +330,18 @@ p {
 }
 
 .contact__content button{
-    max-width: fit-content;
     padding: 1rem 1.5rem;
     outline: none;
-    border-radius: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
     background-color: var(--primary-color);
-    transform: 0.3s;
+    border-radius: 5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.3s;
 }
 
-.contact__container button::hover{
+.contact__content button:hover{
     background-color: var(--text-light);
 }
