@@ -305,7 +305,7 @@ p {
     gap: 1rem;
 }
 
-.contact__content .forn__group{
+.contact__content .form__group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: 2rem;
