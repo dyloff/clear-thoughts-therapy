@@ -345,3 +345,36 @@ p {
 .contact__content button:hover{
     background-color: var(--text-light);
 }
+
+
+
+
+
+
+
+
+/* Page settings to remove pagging */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Your existing CSS for the contact container and other elements */
+
+/* Adjust the bottom padding or margin of the last element inside your section */
+.contact__content button {
+    margin-bottom: 0; /* Adjust this as needed */
+}
+
+/* Ensure the section fills the remaining space if necessary */
+.section__container {
+    flex-grow: 1;
+}
