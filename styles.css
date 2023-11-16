@@ -347,10 +347,75 @@ p {
 }
 
 
+.stories__grid{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
 
 
+.stories__card{
+    padding: 1rem;
+}
+
+.stories__content{
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.stories__content{
+    padding: 7px 10px;
+    font-size: 2rem;
+    color: var(--primary-color);
+    border-radius: 100%;
+}
+
+.stories__content::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    top: 0;
+    left: 24px;
+    background-color: var(--text-light);
+    opacity: .1;
+    z-index: -1;
+}
+
+.stories__content p{
+    line-height: 1.5rem;
+    color: var(--text-light);
+}
+
+.stories__author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.stories__author img{
+    max-width: 100px;
+    border-radius: 100%;
+}
+
+.stories__author_details h4{
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
 
 
+.stories__author_details h6{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-light);
+}
 
 
 /* Page settings to remove bad padding */
