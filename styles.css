@@ -368,10 +368,11 @@ p {
     gap: 1rem;
 }
 
-.stories__content{
+.stories__content span{
     padding: 7px 10px;
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--white);
+    background-color: var(--primary-color);
     border-radius: 100%;
 }
 
