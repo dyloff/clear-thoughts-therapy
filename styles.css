@@ -353,7 +353,7 @@ p {
 
 
 
-/* Page settings to remove pagging */
+/* Page settings to remove bad padding */
 
 
 html, body {
@@ -362,10 +362,10 @@ html, body {
     height: 100%;
 }
 
-body {
+/* body {
     display: flex;
     flex-direction: column;
-}
+} */
 
 /* Your existing CSS for the contact container and other elements */
 
