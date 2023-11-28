@@ -251,15 +251,15 @@ p {
 }
 
 .hero{
-    background-color: var(--extra-light);
+    background-color: var(--white);
 }
 
 .hero__container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 .hero__card span{
