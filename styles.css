@@ -78,14 +78,19 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-nav{
+nav {
+    position: sticky; /* Make the nav bar sticky */
+    top: 0; /* Position at the top when it becomes sticky */
     max-width: var(--max-width);
     margin: auto;
     padding: 2rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: #fff; /* Optional: to make sure text doesn't show through */
 }
+
 
 .nav__logo{
     display: flex;
@@ -490,49 +495,50 @@ html, body {
     } */
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
 }
 
-.footer__container{
+.footer__container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    gap: 2rem;
+    gap: 1.5rem; /* Reduced gap size */
 }
 
 .footer__logo a {
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Reduced font size */
     font-weight: 400;
     color: var(--white);
 }
 
-.footer__col p{
-    font-size: 1.25rem;
+.footer__col p {
+    font-size: 1rem; /* Reduced font size */
     color: var(--white);
     text-align: center;
 }
 
-.footer__socials{
+.footer__socials {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 0.5rem; /* Reduced gap size */
 }
 
-.footer__socials a{
+.footer__socials a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
+    width: 40px; /* Reduced width */
     aspect-ratio: 1;
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Reduced font size */
     color: white;
     background-color: #f7ebf330;
     border-radius: 100%;
 }
 
-.footer_bar{
-    font-size: .9rem;
+.footer_bar {
+    font-size: 0.8rem; /* Reduced font size */
     color: var(--white);
     text-align: center;
 }
+
