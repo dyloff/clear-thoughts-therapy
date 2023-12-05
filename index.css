@@ -122,6 +122,10 @@ li.link a[href="#location"] {
     color: #d291bc;
 }
 
+.location-link {
+    color: #d291bc;
+}
+
 .link a {
     padding: 5px;
     color: var(--text-light);
